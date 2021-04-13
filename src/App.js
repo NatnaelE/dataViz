@@ -2,7 +2,8 @@ import React from "react";
 const viewHeight = 500;
 const viewWidth = 500;
 const App = () => {
-    return <svg style={{ border: "1px solid black", width: viewWidth, height: viewHeight}}>
+    return (
+    <svg style={{ border: "1px solid black", width: viewWidth, height: viewHeight}}>
         <circle cx={200} cy={20} r="5"></circle>
         <rect x ={20} y = {50} width = "10" height="10" fill="rgb(230,230,230)"></rect>
         <rect x ={40} y = {50} width = "10" height="10" fill="rgb(230,230,230)"></rect>
@@ -15,7 +16,8 @@ const App = () => {
         <text x="20" y="35" class="small">
             "FUCK FUCK FUCK FUCK FUCK FUCK "
         </text>
-    </svg>;
-};
+    </svg>
+    );
+}
 
 export default App; 
